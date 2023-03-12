@@ -6,7 +6,10 @@
  // a = String("\\    /\\ \n )  ( ')\n(  /  )\n \\(__)| ")
  // console.log(a)
 
-// 10869 사칙연산 
+// 10869 사칙연산
+ // node.js input
+ // const [a,b] = require("fs").readFileSync("/dev/stdin").toString().trim().split(" ");
+
  // const [a,b] = [7,3]
  // const one = +a
  // const two = +b
@@ -14,7 +17,9 @@
  // console.log(value) 
 
 // 11654 아스키코드  
-
+ // node.js input
+ // const [a,b] = require("fs").readFileSync("/dev/stdin").toString().trim();
+ 
 // const input =["A","C","0","9","a","c"];
  // for(var i = 0; i <input.length; i++){
  //    console.log(input[i].charCodeAt(0))
