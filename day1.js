@@ -18,7 +18,7 @@
 
 // 11654 아스키코드  
  // node.js input
- // const [a,b] = require("fs").readFileSync("/dev/stdin").toString().trim();
+ // const input = require("fs").readFileSync("/dev/stdin").toString().trim();
  
 // const input =["A","C","0","9","a","c"];
  // for(var i = 0; i <input.length; i++){
