@@ -17,3 +17,17 @@ function solution(k, m, score) {
   }
   return answer;
 }
+let number = 10000;
+let result = '';
+
+let numberString = number.toString();
+for (let j = 0; j < numberString.length; j++) {
+  if (j !== 0 && j % 3 == 0) {
+    result = ',' + result;
+
+  }
+  console.log(numberString[numberString.length - 1 - j] );
+  result = numberString[2] + result;
+}
+
+console.log(result);
